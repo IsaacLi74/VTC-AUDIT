@@ -21,4 +21,4 @@ To rerun inference, use notebooks `01`–`03` with a suitable GPU runtime. See t
 
 The audit covers three VLMs, DivPrune and ApET at 25% retained positions, and 708,000 inference records. Notebook execution outputs have been cleared; code and saved experimental results are preserved. Displayed values can differ by 0.01 because of rounding conventions.
 
-Citation metadata: [`CITATION.cff`](CITATION.cff). File hashes: [`SHA256SUMS.txt`](SHA256SUMS.txt).
+Citation metadata: [`CITATION.cff`](CITATION.cff).

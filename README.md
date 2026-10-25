@@ -11,7 +11,7 @@ Code and experimental results for **VTC-AUDIT: An Interventional Reliability Aud
 2. Copy the inner `VTC_AUDIT` folder to Google Drive: `MyDrive/VTC_AUDIT/`.
 3. Open [`04_VTC_AUDIT_Reproduce_Paper_Data.ipynb`](VTC_AUDIT/codes/04_VTC_AUDIT_Reproduce_Paper_Data.ipynb) in Google Colab and run all cells. The completed outputs are included; this step needs no model inference or GPU.
 
-To rerun inference, use notebooks `01`–`03` with a suitable GPU runtime. See the [setup notes](VTC_AUDIT/README.md).
+To rerun inference, use notebooks `01`–`03` with a suitable GPU runtime.
 
 ## Contents
 

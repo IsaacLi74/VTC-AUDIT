@@ -1,0 +1,7 @@
+seed,model_kind,model_name,result_rows,case_rows,preflight_pass,position_policy
+42,qwen35,Qwen3.5-9B,118000,32000,True,native_gapped
+42,ov2,OneVision-2-8B,118000,32000,True,contiguous_after_pruning
+42,internvl35,InternVL3.5-8B,118000,32000,True,contiguous_after_pruning
+2026,qwen35,Qwen3.5-9B,118000,32000,True,native_gapped
+2026,ov2,OneVision-2-8B,118000,32000,True,contiguous_after_pruning
+2026,internvl35,InternVL3.5-8B,118000,32000,True,contiguous_after_pruning

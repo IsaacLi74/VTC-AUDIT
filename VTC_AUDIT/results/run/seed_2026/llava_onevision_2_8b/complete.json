@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "seed": 2026,
+  "model_kind": "ov2",
+  "model_id": "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
+  "model_revision": "802f16c8346a062fef7ddf92b2bd64a770a50a1a",
+  "position_policy": "contiguous_after_pruning",
+  "result_rows": 118000,
+  "expected_result_rows": 118000,
+  "case_rows": 32000,
+  "outputs": [
+    "results.parquet",
+    "analysis/cases.parquet",
+    "analysis/summary.csv",
+    "analysis/severity_summary.csv",
+    "analysis/monitor.csv"
+  ],
+  "runtime": {
+    "preflight_seconds": 11.58960932500122,
+    "inference_seconds": 9332.310632265,
+    "analysis_seconds": 65.1631261399998,
+    "total_seconds": 9420.730000227002
+  },
+  "reused_completed_run": false
+}

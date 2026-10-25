@@ -1,0 +1,7 @@
+Model,Compressor,Dynamic mild,Dynamic strong,Frozen mild,Frozen strong,Delta mild,Delta strong
+Qwen3.5-9B,DivPrune,6.67,7.58,3.47,4.69,3.2,2.88
+Qwen3.5-9B,ApET,5.3,6.25,3.4,4.04,1.9,2.21
+OneVision-2-8B,DivPrune,5.34,5.95,1.84,2.42,3.51,3.53
+OneVision-2-8B,ApET,4.4,5.58,2.21,2.84,2.19,2.74
+InternVL3.5-8B,DivPrune,14.24,14.24,3.69,5.61,10.55,8.64
+InternVL3.5-8B,ApET,9.2,10.56,4.76,6.63,4.44,3.94

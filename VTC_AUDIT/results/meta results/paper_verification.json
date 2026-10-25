@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "completed_runs": 6,
+  "total_inference_rows": 708000,
+  "total_case_rows": 192000,
+  "seed42_all_six_intervention_cis_above_zero": true,
+  "seed2026_all_six_intervention_cis_above_zero": true,
+  "seed2026_divprune_delta_pp_range": [
+    3.09268037251423,
+    8.71062121497658
+  ],
+  "seed2026_apet_delta_pp_range": [
+    2.23096087338071,
+    4.7586341368533
+  ],
+  "seed2026_max_jaccard_orientation_free_bound": 0.5962909608219891,
+  "seed2026_min_uncertainty_lower95": 0.6535201341916999,
+  "table4_eligible_config_range": [
+    256,
+    857
+  ],
+  "table4_eligible_cluster_range": [
+    129,
+    430
+  ],
+  "internvl_divprune_dynamic_mild_unrounded_pct": 14.237389187327429,
+  "internvl_divprune_dynamic_strong_unrounded_pct": 14.240543277098089
+}

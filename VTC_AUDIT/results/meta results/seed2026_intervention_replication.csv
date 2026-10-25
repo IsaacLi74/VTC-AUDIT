@@ -1,0 +1,7 @@
+model_name,model_kind,method,dynamic_scfr,frozen_scfr,dynamic_minus_frozen,dynamic_minus_frozen_ci_low,dynamic_minus_frozen_ci_high
+Qwen3.5-9B,qwen35,divprune,7.15,3.889,3.261,2.48,4.074
+Qwen3.5-9B,qwen35,apet,6.265,3.926,2.339,1.639,3.046
+OneVision-2-8B,ov2,divprune,5.676,2.583,3.093,2.388,3.83
+OneVision-2-8B,ov2,apet,5.142,2.911,2.231,1.589,2.896
+InternVL3.5-8B,internvl35,divprune,13.619,4.909,8.711,7.135,10.299
+InternVL3.5-8B,internvl35,apet,10.8,6.041,4.759,3.651,5.935

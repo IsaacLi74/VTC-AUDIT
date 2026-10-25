@@ -1,0 +1,21 @@
+seed,bench,uid,official,manual,official_score,manual_score,prediction_match,visual_tv,n_visual_tokens,grid_t,grid_h,grid_w,selector_ok,divprune_k,apet_k,apet_basis_k
+42,pope,pope_c2fd09e05371eb3fc4,Yes.,Yes.,1.0,1.0,True,0.41487208008766174,256,1,16,16,True,64,64,10
+42,pope,pope_dd619eef406bf93bdb,Yes.,Yes.,1.0,1.0,True,0.5902309417724609,256,1,16,16,True,64,64,10
+42,pope,pope_ad618a7076652e275c,No.,No.,1.0,1.0,True,0.022464536130428314,768,3,16,16,True,192,192,10
+42,pope,pope_59c6d29d9860c43ecb,Yes.,Yes.,1.0,1.0,True,0.5927150845527649,256,1,16,16,True,64,64,10
+42,pope,pope_a8d776fa23b5ee7091,Yes.,Yes.,1.0,1.0,True,0.6224960088729858,256,1,16,16,True,64,64,10
+42,textvqa,textvqa_1330182f6a5095c60d,1:07,1:07,0.0,0.0,True,0.29134511947631836,256,1,16,16,True,64,64,10
+42,textvqa,textvqa_0dcf65b16d5e4bb05e,23,23,1.0,1.0,True,0.7494982481002808,256,1,16,16,True,64,64,10
+42,textvqa,textvqa_d2875129c05597152d,constitutia,constitutia,0.0,0.0,True,0.9913343191146851,256,1,16,16,True,64,64,10
+42,textvqa,textvqa_c27fba9e6850b99fbc,virgin money,virgin money,0.3,0.3,True,0.9948723912239075,768,3,16,16,True,192,192,10
+42,textvqa,textvqa_255c06a0bb3ffb7422,yes,yes,1.0,1.0,True,0.2215004861354828,256,1,16,16,True,64,64,10
+42,gqa,gqa_abaf06764c2040a469,bottom,bottom,1.0,1.0,True,0.17746835947036743,256,1,16,16,True,64,64,10
+42,gqa,gqa_7b422ab8b26dbb3e63,books,books,1.0,1.0,True,0.9481201171875,768,3,16,16,True,192,192,10
+42,gqa,gqa_0144e75a03ba9872ef,man,man,0.0,0.0,True,0.7435007095336914,768,3,16,16,True,192,192,10
+42,gqa,gqa_72b3128c8fec379da7,horse,horse,1.0,1.0,True,0.8102561831474304,256,1,16,16,True,64,64,10
+42,gqa,gqa_884b3a7cb219a6c889,Yes,Yes,1.0,1.0,True,0.8487802743911743,256,1,16,16,True,64,64,10
+42,chartqa,chartqa_c8ff1d96d4f8f14fd0,Republican,Republican,0.0,0.0,True,0.9483903050422668,256,1,16,16,True,64,64,10
+42,chartqa,chartqa_fe6c1cb8f6c4e7e1a9,253,253,1.0,1.0,True,0.9957908987998962,256,1,16,16,True,64,64,10
+42,chartqa,chartqa_40b44bcd2835d9536c,0.02,0.02,0.0,0.0,True,0.9967250823974609,256,1,16,16,True,64,64,10
+42,chartqa,chartqa_d48891671bc77b6f92,1.14,1.14,1.0,1.0,True,0.8147479891777039,256,1,16,16,True,64,64,10
+42,chartqa,chartqa_442fa74f08e7361747,706.4,706.4,1.0,1.0,True,0.9454771280288696,256,1,16,16,True,64,64,10

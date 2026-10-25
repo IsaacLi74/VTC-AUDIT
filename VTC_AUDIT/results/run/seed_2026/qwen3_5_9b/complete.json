@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "seed": 2026,
+  "model_kind": "qwen35",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "position_policy": "native_gapped",
+  "result_rows": 118000,
+  "expected_result_rows": 118000,
+  "case_rows": 32000,
+  "outputs": [
+    "results.parquet",
+    "analysis/cases.parquet",
+    "analysis/summary.csv",
+    "analysis/severity_summary.csv",
+    "analysis/monitor.csv"
+  ],
+  "runtime": {
+    "preflight_seconds": 16.853652415997203,
+    "inference_seconds": 19945.922439201997,
+    "analysis_seconds": 65.36543112399522,
+    "total_seconds": 20041.836232913003
+  },
+  "reused_completed_run": false
+}

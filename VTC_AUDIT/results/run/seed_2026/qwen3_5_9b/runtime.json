@@ -1,0 +1,9 @@
+{
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "model_kind": "qwen35",
+  "seed": 2026,
+  "preflight_seconds": 16.853652415997203,
+  "inference_seconds": 19945.922439201997,
+  "analysis_seconds": 65.36543112399522,
+  "total_seconds": 20041.836232913003
+}

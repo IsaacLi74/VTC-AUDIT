@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "seed": 42,
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "n": 20,
+  "minimum_visual_tv": 0.22320640087127686,
+  "selector_checks_pass": true
+}

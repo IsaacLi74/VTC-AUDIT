@@ -1,0 +1,5 @@
+model_kind,method,budget,predictor,n_eligible_configurations,n_positive_clusters,raw_auroc,raw_ci_low,raw_ci_high,raw_ci_width,orientation_free_upper_95,practical_threshold,powered,orientation_free_ruled_out_at_0p65,prespecified_direction_clears_0p65
+qwen35,divprune,r25,support_instability,10942,305,0.49227097884893845,0.46476240180328604,0.5190745761856039,0.05431217438231789,0.5352375981967139,0.65,True,True,False
+qwen35,divprune,r25,clean_uncertainty,10942,305,0.7138298761042424,0.6775483540833315,0.747487300194653,0.06993894611132156,0.747487300194653,0.65,True,False,True
+qwen35,apet,r25,support_instability,10543,237,0.5638598916155305,0.5367565583395651,0.5920297112756503,0.055273152936085146,0.5920297112756503,0.65,True,True,False
+qwen35,apet,r25,clean_uncertainty,10543,237,0.7050249967952826,0.6633519011478621,0.7447450655586658,0.08139316441080369,0.7447450655586658,0.65,True,False,True

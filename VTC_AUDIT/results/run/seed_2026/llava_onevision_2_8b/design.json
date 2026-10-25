@@ -1,0 +1,51 @@
+{
+  "status": "supplement",
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "primary_seed": 42,
+  "resample_seed": 2026,
+  "model_kind": "ov2",
+  "model_id": "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
+  "model_revision": "802f16c8346a062fef7ddf92b2bd64a770a50a1a",
+  "position_policy": "contiguous_after_pruning",
+  "greedy_decoding": true,
+  "n_per_task": 500,
+  "benchmarks": [
+    "pope",
+    "textvqa",
+    "gqa",
+    "chartqa"
+  ],
+  "shift_keys": [
+    "jpeg_q70",
+    "jpeg_q50",
+    "noise_s2",
+    "noise_s5",
+    "blur_r0p5",
+    "blur_r1",
+    "brightness_0p9",
+    "brightness_0p8"
+  ],
+  "retain_ratios": {
+    "r25": 0.25
+  },
+  "methods": [
+    "divprune",
+    "apet"
+  ],
+  "matched_inference_budget_retained_fraction": 0.25,
+  "compression_interface": "post_projector_visual_embeds",
+  "apet_basis_tokens": 10,
+  "apet_basis_sampling": "fps_deterministic_uid_hashed_initial_rng",
+  "apet_fps_seed_scope": "sha256(APET_FPS_SEED|uid|n_visual_tokens)",
+  "apet_operator": "paper_faithful_explicit_basis_retention_plus_similarity_average_merge",
+  "budget_semantics": "matched_retained_positions_and_inference_cost_not_matched_information",
+  "support_jaccard_semantics": "position_support_overlap; removed ApET tokens remain represented through merging",
+  "dataset_revisions": {
+    "HuggingFaceM4/ChartQA": "b605b6e08b57faf4359aeb2fe6a3ca595f99b6c5",
+    "lmms-lab/GQA": "a6e72d6e1b912da88af8b2f9eba05d5ea8ec2dd8",
+    "lmms-lab/POPE": "4db1276663dfa5eb8ad16a52d24c31a09e470896",
+    "lmms-lab/textvqa": "9c0699cd19768ac5ab97568f6b3cbac4c0062884"
+  },
+  "transformers": "5.14.1",
+  "datasets": "4.0.0"
+}

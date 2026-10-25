@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility package when using its code or results."
+type: software
+title: "VTC-AUDIT: Reproducibility Code and Data"
+authors:
+  - family-names: Li
+    given-names: "Isaac(Rucheng)"
+    affiliation: "University of Pittsburgh"
+    email: "isl74@pitt.edu"
+repository-code: "https://github.com/IsaacLi74/VTC-AUDIT"
+url: "https://github.com/IsaacLi74/VTC-AUDIT"

@@ -1,0 +1,7 @@
+Model,Compressor,Jaccard AUROC,Jaccard CI low,Jaccard CI high,U_pm,Uncertainty AUROC,Uncertainty CI low,Uncertainty CI high,L95
+Qwen3.5-9B,DivPrune,0.492,0.465,0.519,0.535,0.714,0.678,0.747,0.678
+Qwen3.5-9B,ApET,0.564,0.537,0.592,0.592,0.705,0.663,0.745,0.663
+OneVision-2-8B,DivPrune,0.423,0.395,0.453,0.605,0.783,0.744,0.815,0.744
+OneVision-2-8B,ApET,0.494,0.465,0.524,0.535,0.806,0.778,0.833,0.778
+InternVL3.5-8B,DivPrune,0.426,0.395,0.457,0.605,0.785,0.754,0.812,0.754
+InternVL3.5-8B,ApET,0.488,0.459,0.517,0.541,0.844,0.819,0.867,0.819

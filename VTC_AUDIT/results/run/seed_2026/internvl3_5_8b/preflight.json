@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "seed": 2026,
+  "model_id": "OpenGVLab/InternVL3_5-8B-HF",
+  "model_revision": "741a7d03020411e666c6109218ab71e08151ef86",
+  "n": 20,
+  "minimum_visual_tv": 0.00047334638657048345,
+  "selector_checks_pass": true
+}

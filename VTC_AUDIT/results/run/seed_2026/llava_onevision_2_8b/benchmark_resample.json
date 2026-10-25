@@ -1,0 +1,10 @@
+{
+  "resample_seed": 2026,
+  "manifest_rows": 2000,
+  "task_counts": {
+    "chartqa": 500,
+    "gqa": 500,
+    "pope": 500,
+    "textvqa": 500
+  }
+}

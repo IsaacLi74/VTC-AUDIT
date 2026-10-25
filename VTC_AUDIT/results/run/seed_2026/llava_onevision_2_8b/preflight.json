@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "protocol_tag": "vtc_audit_wacv2027_divprune_apet_r25_uidfps_v1",
+  "seed": 2026,
+  "model_id": "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
+  "model_revision": "802f16c8346a062fef7ddf92b2bd64a770a50a1a",
+  "n": 20,
+  "minimum_visual_tv": 0.09118242561817169,
+  "selector_checks_pass": true
+}
